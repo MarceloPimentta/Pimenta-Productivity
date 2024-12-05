@@ -1,0 +1,34 @@
+name: pimenta_productivity
+description: é um aplicativo multifuncional criado por Marcelo Pimenta. Ele combina ferramentas úteis para o dia a dia com jogos divertidos.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <3.4.0"  # Ajustando a faixa para incluir Dart SDK 3.3.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.2  # Adicionando a dependência flutter_animate
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+  flutter_launcher_icons: ^0.10.0  # Adicionando a dependência flutter_launcher_icons
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/padrao.png
+    - assets/images/pedra.png
+    - assets/images/papel.png
+    - assets/images/tesoura.png
+    - assets/images/cara.png
+    - assets/images/coroa.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"  # Certifique-se de que o caminho e o nome do arquivo estão corretos
