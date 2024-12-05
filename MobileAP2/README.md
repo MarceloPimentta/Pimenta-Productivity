@@ -78,10 +78,6 @@ Para configurar o ícone do aplicativo, siga os passos abaixo:
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para melhorias e correções.
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
 ---
 
 Feito com ❤️ por Marcelo Pimenta
